@@ -50,7 +50,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link className="btn">Get started</Link>
+                <Link className="btn btn-outline btn-info">Get started</Link>
             </div>
         </div>
     );
