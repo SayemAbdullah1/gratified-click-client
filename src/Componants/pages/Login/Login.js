@@ -1,11 +1,15 @@
 import React, { useContext } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import img  from '../../assets/login.png'
 import { authContext } from '../../contexts/AuthProvider/AuthProvider';
 
 const Login = () => {
     const { login, signInWithGoole } = useContext(authContext)
     const navigate = useNavigate()
+    const location = useLocation()
+
+    const from = location.state?.from?.pathname || '/';
+
     const handleLogin = event =>{
         event.preventDefault()
         const form = event.target;
@@ -16,7 +20,7 @@ const Login = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user);
-                navigate('/')
+                navigate(from, { replace: true })
             })
             .catch(err => console.error(err));
     }
