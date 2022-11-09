@@ -1,0 +1,44 @@
+[
+        {
+            "service_id": "01",
+            "title": "Wedding gate design click",
+            "img": "https://cdn0.weddingwire.in/article-gallery-o/00000/original/1280/jpg/articulos-india/2019/non-troncales/wedding-gate/weddings-by-knotty-days-5.jpeg",
+            "price": "10",
+            "description": "Making a grand entry has always been a people pleaser. It gives a red carpet feel to everyone who is entering the wedding venue, enthralling them with the spirit of the festivities and setting the vibe of the event. Make your grand entrance even more special by choosing marriage gate decoration themes and styles that are unique and truly one-of-a-kind. You can even take the style quotient up a notch by adding some personalised elements to the marriage gate decoration that reflect your relationship. Add a rustic chic vibe to your marriage gate decoration by making a walk-in tunnel made with white twigs. Spruce up the front of the tunnel walkway by lining it with different colour flowers that match the colours of your venue decoration. Cover the inner roof of the tunnel with dainty fairy lights and the end result you have will be absolutely mystical and magical. Walking under it will feel like walking in a forest under a million start!"
+        },
+        {
+            "service_id": "02",
+            "title": "Stage photography",
+            "img": "https://3.bp.blogspot.com/-gDYrgwEfr0s/VbN8uXOh0jI/AAAAAAAAwIE/pN_Jh9qRmz0/s1600/Indian-Wedding-Reception-Stage-Decoration.jpg",
+            "price": "17",
+            "description": "A professional wedding photographer is not just an individual you pay ridiculous sums to just flash a camera in your face and eat free kacchi. He/she is a well-seasoned professional, equipped with the best gear to immortalise your memories of how you felt during your wedding versus how it shows in pictures in years to come. So listen carefully to the following advice brought to you by this current bridezilla; those who choose to tread the matrimonial path-- your wedding is not just a milestone in your life (also applicable to those who plan on becoming repeat offenders) and thus, the importance of photographs to preserve those fleeting moments of wedding bliss can, and should never be doubted."
+        },
+        {
+            "service_id": "03",
+            "title": "Special Moments Studio",
+            "img": "https://static.showit.co/1200/OdRu-DSSSLi9zKCTZ2XGNA/10410/030_thecouple_bob_and_dawndavisphotography.jpg",
+            "price": "13",
+            "description": "Special Moments Studio is a professional wedding photography and videography company based out of Sayajipura, Vadodara. Their team of photographers take their natural style and blends it with traditional photojournalism to curate a timeless wedding album for you. Their team goes the extra mile with each client, creating a relaxed environment that will ensure their genuine comfort in front of the lens. So if you are looking for a team of exceptional photographers to capture your D-Day then Special Moments Studio should definitely be on your list."
+        },
+        {
+            "service_id": "04",
+            "title": "Lovestruck Photography",
+            "img": "https://utahbrideandgroom-com-images.s3.us-east-1.amazonaws.com/wp-content/uploads/2022/06/Connor-and-Julia-Wedding_247copy-1-e1654555215650.jpg",
+            "price": "19",
+            "description": "Watching your wedding pictures and videos after years of the ceremony is something that everyone wishes to do. Love Struck Wedding Photography not only captures the moments for you but also enjoys doing so and this is clearly reflected in their work. They are based out of Indore and are willing to travel to any location of your choice and deliver their best photography services. Having an industry experience of 3 years, they have been associated with WedMeGood for almost 2 years.."
+        },
+        {
+            "service_id": "05",
+            "title": "Sunset Snapshot",
+            "img": "https://img.grouponcdn.com/metro_draft_service/3CtLNJWfo83n48KmRjAj2tUyrGj3/3C-4339x2890/v1/t440x300.jpg",
+            "price": "20",
+            "description": "The golden hour is a wedding photographer’s happy hour! We don’t know who said this, but most of the time, this statement seems to stand true. Sunset wedding photography, when the weather permits, is on many photographers’ shot list. The sky is on fire (not literally), the view (if you are at a stunning sunset wedding venue) is breathtaking, and the lighting is simply too good to not take advantage of – there are a lot of reasons why sunset wedding photos are on a wedding photographer and couple’s must-have list. So whether it’s already a part of your shot list and you are looking for some sunset photography tips/inspiration or just need that little push to show you why all that planning and prep is worth it, this blog will help you with both."
+        },
+        {
+            "service_id": "06",
+            "title": "Raleight wedding",
+            "img": "https://inhisimagephotography.com/wp-content/uploads/2015/01/20-4024-post/michaelMelodyWedding_0554.jpg",
+            "price": "15",
+            "description": "With its world-class museums, cool craft breweries, and historical neighborhoods, you're sure to find the perfect venue to fit your wedding style in Raleigh. Whether you're dreaming of a romantic soiree in a timeless mansion, an al fresco affair among ancient oak trees, or a rustic gathering in a weathered barn, you’re guaranteed to find something spectacular in and around this beautiful city."
+        }
+]

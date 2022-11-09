@@ -59,7 +59,7 @@ const Login = () => {
                             <input className="btn btn-primary" type="submit" value="Login" />
                         </div>
                         <div className="form-control mt-6">
-                            <button onClick={handleLoginWithGoogle} className="btn btn-primary">GOOGLE signIn</button>
+                            <button onClick={handleLoginWithGoogle} className="btn btn-outline">GOOGLE signIn</button>
                         </div>
                     </form>
                     <p className='text-center'>New to Gratifed click <Link className='text-blue-600 font-bold' to="/signup">Sign Up</Link> </p>
