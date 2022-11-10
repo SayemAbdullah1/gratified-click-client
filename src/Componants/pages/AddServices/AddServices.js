@@ -17,7 +17,7 @@ const AddServices = () => {
             description
         }
 
-        fetch('http://localhost:5000/services', {
+        fetch('https://gratified-click-server.vercel.app/services', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

@@ -5,7 +5,7 @@ import ShowUserRow from './ShowUserRow';
 const ShowUserReviews = () => {
     const [reviews, setReviews] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/reviews')
+        fetch('https://gratified-click-server.vercel.app/reviews')
             .then(res => res.json())
             .then(data => {
                 setReviews(data)

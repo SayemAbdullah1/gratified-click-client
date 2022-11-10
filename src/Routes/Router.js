@@ -30,7 +30,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/service',
-                element: <AddServices></AddServices>
+                element: <PrivateRoutes><AddServices></AddServices></PrivateRoutes>
             },
             {
                 path: '/review',
@@ -42,11 +42,11 @@ const router = createBrowserRouter([
             },
             {
                 path: '/services',
-                element: <PrivateRoutes><Services></Services></PrivateRoutes>
+                element: <Services></Services>
             },
             {
                 path: '/services/:id',
-                loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`),
+                loader: ({ params }) => fetch(`https://gratified-click-server.vercel.app/services/${params.id}`),
                 element: <ViewDetails></ViewDetails>
             }
         ]
