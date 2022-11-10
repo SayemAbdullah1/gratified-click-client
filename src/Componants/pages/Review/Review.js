@@ -35,28 +35,37 @@ const Review = () => {
     return (
         <div className="overflow-x-auto mt-5 mb-5">
             <h2 className=' mb-6 text-blue-600 text-5xl font-semibold text-center '>All reviews</h2>
-            <table className="table table-zebra w-full">
-                
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>Name</th>
-                        <th>Review</th>
-                        <th>Action</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                   {
-                    reviews.map((review) => <ReviewRow
-                    key={review._id}
-                    review={review}
-                        handleDelete={handleDelete}
-                    ></ReviewRow>)
-                   }
-                    
-                </tbody>
-            </table>
+           {
+            reviews.service ?
+            <>
+                        <table className="table table-zebra w-full">
+
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Name</th>
+                                    <th>Review</th>
+                                    <th>Action</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {
+                                    reviews.map((review) => <ReviewRow
+                                        key={review._id}
+                                        review={review}
+                                        handleDelete={handleDelete}
+                                    ></ReviewRow>)
+                                }
+
+                            </tbody>
+                        </table>
+            </>
+            :
+            <>
+                        <h2 className='mt-12 text-center text-red-600 text-5xl'>No Reviews were added!</h2>
+            </>
+           }
         </div>
     );
 };
