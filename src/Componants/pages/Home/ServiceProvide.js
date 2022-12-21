@@ -5,7 +5,7 @@ const ServiceProvide = () => {
     return (
         
         <div>
-            <h2 className=' mb-6 text-blue-600 text-5xl font-semibold text-center '>Service we are providing</h2>
+            <h2 className='pt-24 mb-6 text-blue-600 text-5xl font-semibold text-center '>Service we are providing</h2>
             <div className="card lg:card-side bg-base-100 shadow-xl mt-20 mb-12">
                 <figure><img src={img} alt="Album" /></figure>
                 <div className="card-body">

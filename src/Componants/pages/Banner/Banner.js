@@ -1,38 +1,15 @@
 import React from 'react';
-import img1 from '../../assets/banner/1.jpg'
-import img2 from '../../assets/banner/2.jpg'
-import img3 from '../../assets/banner/3.jpg'
-import img4 from '../../assets/banner/4.jpg'
+import banner from '../../assets/banner/banner5.png'
 
 const Banner = () => {
     return (
-        <div className="carousel w-full">
-            <div id="slide1" className="carousel-item relative w-full">
-                <img src={img1} alt='' className="w-full rounded" />
-                <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" className="btn btn-circle">❮</a>
-                    <a href="#slide2" className="btn btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide2" className="carousel-item relative w-full">
-                <img src={img2} alt='' className="w-full rounded"  />
-                <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" className="btn btn-circle">❮</a>
-                    <a href="#slide3" className="btn btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide3" className="carousel-item relative w-full">
-                <img src={img3} alt='' className="w-full rounded" />
-                <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" className="btn btn-circle">❮</a>
-                    <a href="#slide4" className="btn btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide4" className="carousel-item relative w-full">
-                <img src={img4} alt='' className="w-full rounded" />
-                <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" className="btn btn-circle">❮</a>
-                    <a href="#slide1" className="btn btn-circle">❯</a>
+        <div className="hero">
+            <div className="hero-content flex-col lg:flex-row mt-32">
+                <img src={banner} className="rounded-lg lg:w-1/2" alt='' />
+                <div className='px-12'>
+                    <h1 className="text-5xl text-blue-500 font-bold">Wedding photograph service!</h1>
+                    <p className="py-6">We provided a trusted and secured system which provide you to get Premium quality service. We are with you!</p>
+                    {/* <PrimaryButton>Getting Started</PrimaryButton> */}
                 </div>
             </div>
         </div>
